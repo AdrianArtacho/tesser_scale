@@ -770,15 +770,15 @@
 					"presentation_rect" : [ 93.25, 63.0, 52.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[2]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Scale value (to)",
+							"parameter_shortname" : "scale-to",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox[2]"
+					"varname" : "Scale_to"
 				}
 
 			}
@@ -796,15 +796,15 @@
 					"presentation_rect" : [ 93.25, 43.0, 52.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[3]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Scale value (from)",
+							"parameter_shortname" : "scale-from",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox[3]"
+					"varname" : "Scale_from"
 				}
 
 			}
@@ -835,15 +835,15 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.toggle",
+							"parameter_longname" : "Scale toggle",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.toggle",
+							"parameter_shortname" : "scaletoggle",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.toggle"
+					"varname" : "Scale_toggle"
 				}
 
 			}
@@ -951,8 +951,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1107.0, 57.0, 82.0, 129.0 ],
-					"text" : ";\rmax launchbrowser https://bitbucket.org/AdrianArtacho/tesser_midigate/src/master/"
+					"patching_rect" : [ 1107.0, 57.0, 77.0, 129.0 ],
+					"text" : ";\rmax launchbrowser https://bitbucket.org/AdrianArtacho/tesser_scale/src/master/"
 				}
 
 			}
@@ -1776,15 +1776,15 @@
 					"presentation_rect" : [ 12.0, 63.0, 52.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox[1]",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Source value (to)",
+							"parameter_shortname" : "to",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox[1]"
+					"varname" : "Value_to"
 				}
 
 			}
@@ -1991,16 +1991,16 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "pitch", "vel", "thru" ],
-							"parameter_longname" : "live.tab",
+							"parameter_longname" : "Scale mode",
 							"parameter_mmax" : 2,
-							"parameter_shortname" : "live.tab",
+							"parameter_shortname" : "mode",
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"varname" : "live.tab"
+					"varname" : "Scale_mode"
 				}
 
 			}
@@ -2018,15 +2018,15 @@
 					"presentation_rect" : [ 12.0, 43.0, 52.0, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.numbox",
-							"parameter_shortname" : "live.numbox",
+							"parameter_longname" : "Source value (from)",
+							"parameter_shortname" : "from",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
 
 					}
 ,
-					"varname" : "live.numbox"
+					"varname" : "Value_from"
 				}
 
 			}
@@ -2554,12 +2554,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-31" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-32" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-5" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-55" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-7" : [ "live.tab", "live.tab", 0 ],
-			"obj-8" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-31" : [ "Scale value (to)", "scale-to", 0 ],
+			"obj-32" : [ "Scale value (from)", "scale-from", 0 ],
+			"obj-5" : [ "Source value (from)", "from", 0 ],
+			"obj-55" : [ "Source value (to)", "to", 0 ],
+			"obj-7" : [ "Scale mode", "mode", 0 ],
+			"obj-8" : [ "Scale toggle", "scaletoggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
