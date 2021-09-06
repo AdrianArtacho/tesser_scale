@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1731.0, 121.0, 640.0, 480.0 ],
+		"rect" : [ 34.0, 79.0, 1056.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "--setwidth $1--live.thisdevice",
 					"id" : "obj-8",
 					"index" : 3,
 					"maxclass" : "outlet",
@@ -151,13 +151,13 @@
 				"box" : 				{
 					"downarrow" : 0,
 					"id" : "obj-149",
+					"leftarrow" : 0,
 					"maxclass" : "live.arrows",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 266.0, 419.0, 17.5, 15.0 ],
-					"rightarrow" : 0,
 					"uparrow" : 0
 				}
 
@@ -356,7 +356,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "From [tab.arrows]",
 					"id" : "obj-196",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -381,7 +381,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "go to tab.arrows",
+					"comment" : "go to tab.arrows",
+					"hint" : "go to tab.arrows",
 					"id" : "obj-198",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -551,7 +553,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"order" : 0,
+					"source" : [ "obj-193", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-198", 0 ],
+					"order" : 1,
 					"source" : [ "obj-193", 0 ]
 				}
 
