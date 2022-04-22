@@ -2,17 +2,21 @@ This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtac
 
 ![TTESS:Logo](https://bitbucket.org/AdrianArtacho/tesserakt/raw/HEAD/TESSER_logo.png)
 
-# Tesser_scale #
+# Tesser_scale
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+![TESS:scale](https://docs.google.com/drawings/d/e/2PACX-1vRPf0n5tyWMLsFvzQ7AS4udPyn6JAk6NtskSGDidOevXtXjFWlJtXqNiWhB_TaVvBGiaS5C-bPqimiN/pub?w=239&h=176)
+
+### What is this repository for?
 
 * Quick summary
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+____
+
+# To-Do
 
 * Summary of set up
 * Configuration
