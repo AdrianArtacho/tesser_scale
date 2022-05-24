@@ -24,3 +24,7 @@ ____
 * Database configuration
 * How to run tests
 * Deployment instructions
+* display notation
+* color coding: BLUE for settings. GREEN for outgoing messages. YELLOW/RED/ORANGE... for incomming messages of different kinds. Establish a protocol. Check the [gt_server] object to check which colors I used there and try to be consistent
+* Big [live.dial] mappable object for the INPUT (I will need with Glover)
+* make it microtone-polyphony-capable (speak seamlessly with gt_Transmitter)
